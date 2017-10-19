@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.google.gdt.eclipse.suite.e43.feature_3.8.0.v201410302155-rel-r43.jar" id="com.google.gdt.eclipse.suite.e43.feature" version="3.8.0.v201410302155-rel-r43">
+      <category name="Plugin"/>
+   </feature>
+   <feature url="features/com.google.gdt.eclipse.google3.feature_3.8.0.v201410302155-rel-r43.jar" id="com.google.gdt.eclipse.google3.feature" version="3.8.0.v201410302155-rel-r43">
+      <category name="Plugin"/>
+   </feature>
+   <feature url="features/com.google.gdt.eclipse.mobile.android.feature_3.8.0.v201410302155-rel-r43.jar" id="com.google.gdt.eclipse.mobile.android.feature" version="3.8.0.v201410302155-rel-r43">
+      <category name="Android"/>
+   </feature>
+   <feature url="features/com.google.appengine.eclipse.wtp.maven.feature_3.8.0.v201410302155-rel-r43.jar" id="com.google.appengine.eclipse.wtp.maven.feature" version="3.8.0.v201410302155-rel-r43">
+      <category name="Maven"/>
+   </feature>
+   <feature url="features/org.eclipse.wb.core.feature_1.7.0.r43x201405021445.jar" id="org.eclipse.wb.core.feature" version="1.7.0.r43x201405021445">
+      <category name="WB"/>
+   </feature>
+   <feature url="features/org.eclipse.wb.core.xml.feature_1.7.0.r43x201405021458.jar" id="org.eclipse.wb.core.xml.feature" version="1.7.0.r43x201405021458">
+      <category name="WB"/>
+   </feature>
+   <feature url="features/org.eclipse.wb.css.feature_1.7.0.r43x201405021453.jar" id="org.eclipse.wb.css.feature" version="1.7.0.r43x201405021453">
+      <category name="WB"/>
+   </feature>
+   <feature url="features/com.google.gdt.eclipse.designer.hosted.feature_3.1.3.r43x201405021502.jar" id="com.google.gdt.eclipse.designer.hosted.feature" version="3.1.3.r43x201405021502">
+      <category name="WB"/>
+   </feature>
+   <feature url="features/com.google.gdt.eclipse.designer.editor.feature_3.1.3.r43x201405021509.jar" id="com.google.gdt.eclipse.designer.editor.feature" version="3.1.3.r43x201405021509">
+      <category name="WB"/>
+   </feature>
+   <feature url="features/com.google.gdt.eclipse.designer.gpe.feature_3.1.3.r43x201405021554.jar" id="com.google.gdt.eclipse.designer.gpe.feature" version="3.1.3.r43x201405021554">
+      <category name="WB"/>
+   </feature>
+   <category-def name="Plugin" label="Google Plugin for Eclipse (required)">
+      <description>
+         This is a set of Google plugins for Eclipse 4.3.
+      </description>
+   </category-def>
+   <category-def name="SDKs" label="SDKs">
+      <description>
+         This is a set of SDKs that can be used with the plugin.
+      </description>
+   </category-def>
+   <category-def name="WB" label="GWT Designer for GPE">
+      <description>
+         GWT Designer for GPE
+      </description>
+   </category-def>
+   <category-def name="Android" label="Google App Engine Tools for Android (requires ADT)">
+      <description>
+         Google App Engine Tools for Android
+      </description>
+   </category-def>
+   <category-def name="Maven" label="Google App Engine Tools for Maven (requires m2e-wtp 1.5+)">
+      <description>
+         Google App Engine Tools for Maven
+      </description>
+   </category-def>
+</site>
